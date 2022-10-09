@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>Layout Demo</title>
+     <style media="screen">
+        *{
+           box-sizing: border-box;
+        }
+        body{
+            font-family: Arial;
+        }
+        header{
+             background-image: url('topimage.jpg');
+            background-size: cover; 
+             padding: 50px;
+             font-size: 25px;
+        }
+        nav{
+          float: left;
+          width: 15%;
+          height: 15%;
+          background-color:aquamarine;
+          padding: 20px;
+
+        }
+        nav ul{
+          list-style-type: none;
+          padding: 0px;
+        }
+        article{
+            float:left;
+            padding: 20px;
+            width: 70%;
+            height: 500px
+        }
+        section:after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        footer{
+            background-color: black;
+            padding: 10px;
+            text-align: center;
+            color:antiquewhite;
+        }
+        @media (max-widht: 600px){
+            nav,article{
+                widht: 100%px;
+                height: auto;
+
+        }
+
+      
+       </style>
+
+    </head>
+    <body>
+       <header>
+        <h1>Pengertian Java</h1>
+        <link rel="stylesheet" href="assets/styles/.scc"/>
+        <head>
+       </header> 
+       <section>
+        <nav>
+          <ul>
+           <li> <a href="#">Java</a> </li>
+           <li> <a href="#">Html</a> </li>
+           <li> <a href="#">Phyton</a> </li>
+           <li> <a href="#">CSS</a> </li>
+        </ul>
+
+        </nav>
+        </article>
+           <h1>java</h1>
+           <p>java merupakan bahasa pemrograman yang digunakan secara luas untuk pengodean aplikasi web. 
+            Bahasa ini telah menjadi pilihan populer di antara developer selama lebih dari dua dekade,
+             dengan jutaan aplikasi Java yang digunakan saat ini.</p>
+           <p>java merupakan bahasa multiplatform yang berorientasi pada objek dan berpusat pada jaringan yang dapat digunakan sebagai platform di dalamnya. Java merupakan bahasa pemrograman yang cepat, aman, dan andal untuk mengodekan segala sesuatu mulai dari aplikasi seluler dan perangkat lunak
+             korporasi hingga aplikasi big data dan teknologi sisi server.</p>
+         </article>
+       </section>
+       <footer> 
+         <p>Copyright</p>   
+       </footer>
+
+    </body>
+  </html>
